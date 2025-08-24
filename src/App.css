@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+body {
+  background-color: #eeeeee;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 150px;
+  height: 80%;
+}
+.button-group{
+  display: flex;
+  gap: 1rem;
+}
+.content-inner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.center-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 4px 150px;
+  padding: 10px 5px;
+}
+h1 {
+  font-size: 2.75rem;
+}
+h2 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+.number_display {
+  font-size: 5.25rem;
+  color: #541212;
+}
+nav {
+  height: 10%;
+  border-bottom: 1px solid black;
+}
+.Secondary_button{
+  font-size: 1.25rem;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 2px solid #541212;
+  color: #541212;
+}
+.primary_button{
+  font-size: 1.25rem;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 2px solid #541212;
+  background-color: #541212;
+  color: white;
+}
+footer {
+  height: 10%;
+  border-top: 1px solid black;
+  color: #541212;
+}
+
+/* font-imports */
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 !important;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700 !important;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
